@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Pacientes</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h2>Registro de Pacientes</h2>
+
+<form id="formPaciente">
+
+<input type="text" id="nombrePaciente" placeholder="Nombre" required>
+
+<input type="number" id="edadPaciente" placeholder="Edad" required>
+
+<input type="text" id="telefonoPaciente" placeholder="Teléfono" required>
+
+<button type="submit">Registrar</button>
+
+</form>
+
+<h3>Lista de Pacientes</h3>
+
+<table>
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Edad</th>
+<th>Teléfono</th>
+</tr>
+</thead>
+
+<tbody id="tablaPacientes"></tbody>
+
+</table>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

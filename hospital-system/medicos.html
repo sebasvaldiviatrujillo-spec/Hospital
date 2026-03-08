@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Médicos</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h2>Registro de Médicos</h2>
+
+<form id="formMedico">
+
+<input type="text" id="nombreMedico" placeholder="Nombre" required>
+
+<input type="text" id="especialidadMedico" placeholder="Especialidad" required>
+
+<button type="submit">Registrar</button>
+
+</form>
+
+<h3>Lista de Médicos</h3>
+
+<table>
+
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Especialidad</th>
+</tr>
+</thead>
+
+<tbody id="tablaMedicos"></tbody>
+
+</table>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
